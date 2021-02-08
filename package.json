@@ -1,0 +1,22 @@
+{
+  "name": "my-beautiful-repo",
+  "version": "1.0.0",
+  "description": "Amazing code will go here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duvet86/my-beautiful-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duvet86/my-beautiful-repo/issues"
+  },
+  "homepage": "https://github.com/duvet86/my-beautiful-repo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
