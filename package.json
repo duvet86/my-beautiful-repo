@@ -1,15 +1,17 @@
 {
   "name": "my-beautiful-repo",
   "version": "1.0.0",
-  "description": "Amazing code will go here",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/duvet86/my-beautiful-repo.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,6 +19,16 @@
   },
   "homepage": "https://github.com/duvet86/my-beautiful-repo#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
   }
 }
